@@ -2,7 +2,7 @@
 //git配置
 git config --global user.name "894743926"
 git config --global user.email "894743926@qq.com"
-//遇到关于ssh的问题可以尝试这连个命令
+//遇到关于ssh的问题可以尝试这两个命令
 eval "$(ssh-agent -s)"
 ssh-add
 //连接相关操作
