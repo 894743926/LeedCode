@@ -1,12 +1,22 @@
-//github 相应操作
-//github 相应操作
-//github 相应操作
-//github 相应操作
-//github 相应操作
-//github 相应操作
-//github 相应操作
-//github 相应操作
-//github 相应操作
-//github 相应操作
-//github 相应操作
-
+///github相应操作
+//git配置
+git config --global user.name "894743926"
+git config --global user.email "894743926@qq.com"
+//遇到关于ssh的问题可以尝试这连个命令
+eval "$(ssh-agent -s)"
+ssh-add
+//连接相关操作
+ssh -T git@github.com
+//讲github远程库拷贝到本地仓库
+git clone git@github.com:894743926/LeedCode.git
+///git操作
+//添加
+git add 文件
+git add *
+//查看状态
+git status
+// 提交
+git commit -m "备注"
+//push
+git push
+git push -u origin master
